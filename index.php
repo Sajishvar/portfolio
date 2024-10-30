@@ -83,6 +83,61 @@ ob_start();
 	</div>
 </section>
 
+<section class="ftco-section ftco-no-pb" id="resume-section">
+	<div class="container">
+		<div class="row justify-content-center pb-5">
+		<div class="col-md-10 heading-section text-center ftco-animate">
+		<h1 class="big big-2">Resume</h1>
+		<h2 class="mb-4">Resume</h2>
+		<p>Experienced web designer and computer engineering student with a passion for creating user-focused, visually engaging websites, and a strong foundation in front-end and back-end development.</p>
+		</div>
+	</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">2021-Present</span>
+					<h2>BSc.Eng in Computer Engineering</h2>
+					<span class="position">University of Jaffna</span>
+					<p class="mt-4">Studied core concepts in computer engineering, including programming, data structures, algorithms, database management, networking, and software development.</p>
+				</div>
+				<div class="resume-wrap ftco-animate">
+					<span class="date">2018-2019</span>
+					<h2>G.C.E Advanced Level</h2>
+					<span class="position">CP/N/Talawakelle Tamil Maha Vidyalayam</span>
+					<p class="mt-4">Achieved B in Chemistry, Cs in Mathematics and Physics, with a Z-score of 0.9.</p>
+				</div>
+				<div class="resume-wrap ftco-animate">
+					<span class="date">2014-2015</span>
+					<h2>Diploma in Information Technology</h2>
+					<span class="position">Esoft Metro Campus</span>
+					<p class="mt-4">Completed a Diploma in Information Technology, covering fundamentals in programming, networking, and database management.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">2023-Present</span>
+					<h2>Trainee</h2>
+					<span class="position">Swartup (PVT) Ltd</span>
+					<p class="mt-4">Trainee Web Developer responsible for designing and developing websites, maintaining site functionality and SEO, and specialized in laravel and php.</p>
+				</div>
+				<div class="resume-wrap ftco-animate">
+					<span class="date">2023-Present</span>
+					<h2>AIESEC MEMBER</h2>
+					<span class="position">University of Jaffna</span>
+					<p class="mt-4">A dedicated member in the society and written a blog in offical site.</p>
+				</div>
+				<div class="resume-wrap ftco-animate">
+					<span class="date">2020-2021</span>
+					<h2>Banking Trainee</h2>
+					<span class="position">Commercial Bank of Ceylon PLC</span>
+					<p class="mt-4">Served as a Trainee, gaining hands-on experience in corporate culture, time management, and conflict resolution within a high-paced banking environment.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 <?php
 $pageContent = ob_get_clean();
 include("includes/layout.php");
