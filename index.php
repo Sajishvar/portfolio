@@ -284,6 +284,50 @@ ob_start();
 	</div>
 </section>
 
+<section class="ftco-section ftco-project" id="projects-section">
+	<div class="container">
+		<div class="row justify-content-center pb-5">
+		<div class="col-md-12 heading-section text-center ftco-animate">
+		<h1 class="big big-2">Projects</h1>
+		<h2 class="mb-4">My Projects</h2>
+		<p>Showcasing a range of projects that highlight my skills in web development, software engineering, and problem-solving.</p>
+		</div>
+	</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(assets/images/project-7.jpg);">
+					<div class="overlay"></div>
+					<div class="text text-center p-4">
+						<h3><a href="#">Feedback System</a></h3>
+						<span>Web Development</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(assets/images/project-5.jpg);">
+					<div class="overlay"></div>
+					<div class="text text-center p-4">
+						<h3><a href="#">CO2 Lab Booking System</a></h3>
+						<span>Web Development</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="ftco-section ftco-hireme img margin-top" style="background-image: url(assets/images/bg_1.jpg)">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-7 ftco-animate text-center">
+				<h2>I'm <span>Available</span> for freelancing</h2>
+				<p>Open to collaborating on projects that bring innovative ideas to life through web design and software solutions.</p>
+				<p class="mb-0"><a href="#contact-section" class="btn btn-primary py-3 px-4">Hire me</a></p>
+			</div>
+		</div>
+	</div>
+</section>
+
 <?php
 $pageContent = ob_get_clean();
 include("includes/layout.php");
