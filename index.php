@@ -138,6 +138,50 @@ ob_start();
 	</div>
 </section>
 
+<section class="ftco-section" id="services-section">
+	<div class="container">
+		<div class="row justify-content-center py-5 mt-3">
+		<div class="col-md-12 heading-section text-center ftco-animate">
+		<h1 class="big big-2">Services</h1>
+		<h2 class="mb-4">Services</h2>
+		<p>Offering a range of web design and development services focused on creating functional, visually appealing, and user-friendly digital experiences.</p>
+		</div>
+	</div>
+		<div class="row">
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1">
+						<span class="icon">
+							<i class="flaticon-analysis"></i>
+						</span>
+						<div class="desc">
+							<h3 class="mb-5">Front-End Development</h3>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1">
+						<span class="icon">
+							<i class="flaticon-ideas"></i>
+						</span>
+						<div class="desc">
+							<h3 class="mb-5">Back-End Development</h3>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1">
+						<span class="icon">
+							<i class="flaticon-flasks"></i>
+						</span>
+						<div class="desc">
+							<h3 class="mb-5">SEO Optimization</h3>
+						</div>
+					</a>
+				</div>
+			</div>
+	</div>
+</section>
+
 <?php
 $pageContent = ob_get_clean();
 include("includes/layout.php");

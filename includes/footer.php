@@ -28,11 +28,11 @@
                 <div class="ftco-footer-widget mb-4">
                 <h2 class="ftco-heading-2">Services</h2>
                 <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Front-End Development</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Back-End Development</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>SEO Optimization</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Website Maintenance</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Custom Web Design</a></li>
+                <li><span class="icon-long-arrow-right mr-2"></span>Front-End Development</li>
+                <li><span class="icon-long-arrow-right mr-2"></span>Back-End Development</li>
+                <li><span class="icon-long-arrow-right mr-2"></span>SEO Optimization</li>
+                <li><span class="icon-long-arrow-right mr-2"></span>Website Maintenance</li>
+                <li><span class="icon-long-arrow-right mr-2"></span>Custom Web Design</li>
                 </ul>
             </div>
             </div>
@@ -43,7 +43,12 @@
                     <ul>
                     <li><span class="icon icon-map-marker"></span><span class="text">201/131, Jeyaraja Mawatha, Kotagala,<br> Nuwara Eliya,<br>Sri Lanka</span></li>
                     <li><a href="#"><span class="icon icon-phone"></span><span class="text">+94 76 8262 123</span></a></li>
-                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">  mohansajishvar@gmail.com</span></a></li>
+                    <li>
+                    <a href="#" style="display: inline-flex; align-items: center;">
+                        <span class="icon icon-envelope" style="margin-right: 3px;"></span>
+                        <span class="text">mohansajishvar@gmail.com</span>
+                    </a>
+                    </li>
                     </ul>
                 </div>
             </div>
