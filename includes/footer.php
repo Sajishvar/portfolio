@@ -42,9 +42,9 @@
                 <div class="block-23 mb-3">
                     <ul>
                     <li><span class="icon icon-map-marker"></span><span class="text">201/131, Jeyaraja Mawatha, Kotagala,<br> Nuwara Eliya,<br>Sri Lanka</span></li>
-                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+94 76 8262 123</span></a></li>
+                    <li><a href="tel://+9478262123"><span class="icon icon-phone"></span><span class="text">+94 76 8262 123</span></a></li>
                     <li>
-                    <a href="#" style="display: inline-flex; align-items: center;">
+                    <a href="mailto:mohansajishvar@gmail.com" style="display: inline-flex; align-items: center;">
                         <span class="icon icon-envelope" style="margin-right: 3px;"></span>
                         <span class="text">mohansajishvar@gmail.com</span>
                     </a>

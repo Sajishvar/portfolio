@@ -17,7 +17,7 @@ ob_start();
 							<span class="subheading">Hello!</span>
 							<h1 class="mb-4 mt-3">I'm <span>Sajishvar Mohan</span></h1>
 							<h2 class="mb-4">An Aspiring Software Engineer</h2>
-							<p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+							<p><a href="#contact-section" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#projects-section" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
 						</div>
 					</div>
 				</div>
@@ -34,7 +34,7 @@ ob_start();
 		          	<div class="text">
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm a <span>web designer</span> based in Sri Lanka</h1>
-			            <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+			            <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#projects-section" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
 		            </div>
 		          </div>
 	        	</div>
@@ -298,7 +298,7 @@ ob_start();
 				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(assets/images/project-7.jpg);">
 					<div class="overlay"></div>
 					<div class="text text-center p-4">
-						<h3><a href="#">Feedback System</a></h3>
+						<h3><a href="https://www.tjiec.com/" target="blank">Tjiec</a></h3>
 						<span>Web Development</span>
 					</div>
 				</div>
@@ -307,8 +307,30 @@ ob_start();
 				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(assets/images/project-5.jpg);">
 					<div class="overlay"></div>
 					<div class="text text-center p-4">
-						<h3><a href="#">CO2 Lab Booking System</a></h3>
+						<h3><a href="https://github.com/Sajishvar/CO2-lab-booking-app-frontend" target="blank">CO2 Lab Booking System</a></h3>
 						<span>Web Development</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(assets/images/project-3.jpg);">
+					<div class="overlay"></div>
+					<div class="text text-center p-4">
+						<h3><a href="https://24sevenmartstore.lk/" target="blank">24sevenmartstore</a></h3>
+						<span>Web Development</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(assets/images/project-2.jpg);">
+							<div class="overlay"></div>
+							<div class="text text-center p-4">
+								<h3><a href="https://shaswathm.com/" target="blank">Shaswathm</a></h3>
+								<span>Web Development</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -316,15 +338,95 @@ ob_start();
 	</div>
 </section>
 
-<section class="ftco-section ftco-hireme img margin-top" style="background-image: url(assets/images/bg_1.jpg)">
+<section class="ftco-section ftco-hireme img margin-top" style="background-image: url(assets/images/bg_1.jpg); position: relative; z-index: 0;">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-7 ftco-animate text-center">
 				<h2>I'm <span>Available</span> for freelancing</h2>
 				<p>Open to collaborating on projects that bring innovative ideas to life through web design and software solutions.</p>
-				<p class="mb-0"><a href="#contact-section" class="btn btn-primary py-3 px-4">Hire me</a></p>
+				<p class="mb-0">
+					<a href="#contact-section" class="btn btn-primary py-3 px-4" style="position: relative; z-index: 1;">Hire me</a>
+				</p>
 			</div>
 		</div>
+	</div>
+</section>
+
+
+<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+	<div class="container">
+	<div class="row justify-content-center mb-5 pb-3">
+		<div class="col-md-7 heading-section text-center ftco-animate">
+		<h1 class="big big-2">Contact</h1>
+		<h2 class="mb-4">Contact Me</h2>
+		<p>Feel free to reach out for collaboration, inquiries, or project discussions.</p>
+		</div>
+	</div>
+
+	<div class="row d-flex contact-info mb-5">
+		<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+		<div class="align-self-stretch box p-4 text-center">
+			<div class="icon d-flex align-items-center justify-content-center">
+				<span class="icon-map-signs"></span>
+			</div>
+			<h3 class="mb-4">Address</h3>
+			<p>No 201/131,<br> Jeyaraj Mawatha, Kotagala, Nuwara Eliya, Sri Lanka</p>
+			</div>
+		</div>
+		<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+		<div class="align-self-stretch box p-4 text-center">
+			<div class="icon d-flex align-items-center justify-content-center">
+				<span class="icon-phone2"></span>
+			</div>
+			<h3 class="mb-4">Contact Number</h3>
+			<p><a href="tel://+9478262123">+94 76 8262 123</a></p>
+			</div>
+		</div>
+		<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+		<div class="align-self-stretch box p-4 text-center">
+			<div class="icon d-flex align-items-center justify-content-center">
+				<span class="icon-paper-plane"></span>
+			</div>
+			<h3 class="mb-4">Email Address</h3>
+			<p><a href="mailto:mohansajishvar@gmail.com">mohansajishvar@gmail.com</a></p>
+			</div>
+		</div>
+		<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+		<div class="align-self-stretch box p-4 text-center">
+			<div class="icon d-flex align-items-center justify-content-center">
+				<span class="icon-globe"></span>
+			</div>
+			<h3 class="mb-4">Website</h3>
+			<p><a href="#">sajishvarmohan.lk</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row no-gutters block-9">
+		<div class="col-md-6 order-md-last d-flex">
+			<form action="send_mail.php" method="POST" class="bg-dark p-4 p-md-5 contact-form">
+				<div class="form-group">
+					<input type="text" name="name" class="form-control" placeholder="Your Name" required>
+				</div>
+				<div class="form-group">
+					<input type="email" name="email" class="form-control" placeholder="Your Email" required>
+				</div>
+				<div class="form-group">
+					<input type="text" name="subject" class="form-control" placeholder="Subject" required>
+				</div>
+				<div class="form-group">
+					<textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+				</div>
+			</form>
+		</div>
+
+		<div class="col-md-6 d-flex">
+		<div class="img" style="background-image: url(assets/images/contact-us-2.png); width-7"></div>
+		</div> 
+	</div>
 	</div>
 </section>
 
