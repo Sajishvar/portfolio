@@ -1,0 +1,22 @@
+on: 
+  push:
+    branches:
+      - main
+
+name: portfolio-sajishvar
+
+jobs:
+  FTP-Deploy-Action:
+    name: Prod-Deploy-portfolio-sajishvar
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: 192.185.52.143
+          username: ${{ secrets.PROD_FTP_USERNAME }}
+          password: ${{ secrets.PROD_FTP_PASSWORD }}
